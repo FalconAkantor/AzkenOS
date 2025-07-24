@@ -1,0 +1,1223 @@
+Se van a ejecutar los siguientes scripts en secuencia con los siguientes parámetros:
+1. Gobernador
+2. Octane
+3. GeekbenchGPU para tests GPUs
+4. Anchobanda
+5. Mprime -> num_cpus: 2, mem_reservada_gb: 20, frecuencia_base_mhz: 3000, duración: 5 minutos
+6. Geekbench
+7. GPU-BURN -> clock base: 2235 MHz, duración: 5 minutos
+8. FIO
+9. Sectores
+10. Resultado
+11. Comprobaciones -> dispositivo PCI: Intel
+¿Desea continuar con la ejecución? (s/n): Ejecutando Valores...
+[0;36mAzken Muga 🚀✨[0m
+
+[0;32mSistema optimizado para pruebas de benchmarks.[0m
+
+Estadísticas del sistema:
+  - GPUs NVIDIA CUDA: 8 (NVIDIA GeForce RTX 4090,)
+  - CPUs disponibles: 64
+  - Modelo de CPU: AMD EPYC 9124 16-Core Processor
+BIOS AMD EPYC 9124 16-Core Processor                 Unknown CPU @ 3.0GHz
+  - Frecuencia actual de CPU: 3682.96 MHz
+  - Frecuencia base (mínima): 1.50
+  - Frecuencia boost (máxima): GHz 3.71 GHz
+  - Núcleos físicos: 32
+  - Hilos por núcleo: 2
+  - Caché L1d: 1 MiB
+  - Caché L1i: 1 MiB
+  - Caché L2: 32 MiB
+  - Caché L3: 128 MiB
+  - Memoria RAM total: 540G
+
+Información del BMC:
+  - IP del BMC: 192.168.1.254
+  - MAC del BMC: a0:36:bc:cc:80:58
+  - Placa base: 	K14PG-D24 Series
+
+[0;36m🔧 Azken Muga LABS [0m
+Ejecutando Gobernador...
+Cambiando el gobernador de la CPU a 'performance' para todas las 64 CPUs.
+Todas las CPUs han sido configuradas en el modo 'performance'.
+Ejecutando Octane...
+Resultados guardados en result.csv
+La puntuación de las tarjetas gráfica es: 10256.85
+La media por tarjeta gráfica es: 1282.11250000000000000000
+Puedes buscar los resultados de tu tarjeta grafica aqui y compararlo: https://render.otoy.com/octanebench/results.php?v=&sort_by=&scale_by=&filter=&singleGPU=1&showRTXOff=0
+Ejecutando GeekbenchGPU...
+Se han detectado 8 GPUs en el sistema.
+Ejecutando Geekbench en la GPU 0 (NVIDIA GeForce RTX 4090)...
+[0723/112752:FATAL:nvml_library.cpp(153)] Failed to load nvmlInit_v2: ./tests/geekbench/geekbench_x86_64: undefined symbol: nvmlInit_v2
+6 warnings generated.
+Prueba en la GPU 0 (NVIDIA GeForce RTX 4090) completada. Resultado: https://www.geekbench.com/
+https://store.primatelabs.com/v6
+https://browser.geekbench.com/v6/compute/4500753
+https://browser.geekbench.com/v6/compute/4500753/claim?key=973304
+-----------------------------------
+Ejecutando Geekbench en la GPU 1 (NVIDIA GeForce RTX 4090)...
+[0723/112848:FATAL:nvml_library.cpp(153)] Failed to load nvmlInit_v2: ./tests/geekbench/geekbench_x86_64: undefined symbol: nvmlInit_v2
+Prueba en la GPU 1 (NVIDIA GeForce RTX 4090) completada. Resultado: https://www.geekbench.com/
+https://store.primatelabs.com/v6
+https://browser.geekbench.com/v6/compute/4500755
+https://browser.geekbench.com/v6/compute/4500755/claim?key=317493
+-----------------------------------
+Ejecutando Geekbench en la GPU 2 (NVIDIA GeForce RTX 4090)...
+[0723/112943:FATAL:nvml_library.cpp(153)] Failed to load nvmlInit_v2: ./tests/geekbench/geekbench_x86_64: undefined symbol: nvmlInit_v2
+Prueba en la GPU 2 (NVIDIA GeForce RTX 4090) completada. Resultado: https://www.geekbench.com/
+https://store.primatelabs.com/v6
+https://browser.geekbench.com/v6/compute/4500758
+https://browser.geekbench.com/v6/compute/4500758/claim?key=880758
+-----------------------------------
+Ejecutando Geekbench en la GPU 3 (NVIDIA GeForce RTX 4090)...
+[0723/113037:FATAL:nvml_library.cpp(153)] Failed to load nvmlInit_v2: ./tests/geekbench/geekbench_x86_64: undefined symbol: nvmlInit_v2
+Prueba en la GPU 3 (NVIDIA GeForce RTX 4090) completada. Resultado: https://www.geekbench.com/
+https://store.primatelabs.com/v6
+https://browser.geekbench.com/v6/compute/4500760
+https://browser.geekbench.com/v6/compute/4500760/claim?key=908238
+-----------------------------------
+Ejecutando Geekbench en la GPU 4 (NVIDIA GeForce RTX 4090)...
+[0723/113131:FATAL:nvml_library.cpp(153)] Failed to load nvmlInit_v2: ./tests/geekbench/geekbench_x86_64: undefined symbol: nvmlInit_v2
+Prueba en la GPU 4 (NVIDIA GeForce RTX 4090) completada. Resultado: https://www.geekbench.com/
+https://store.primatelabs.com/v6
+https://browser.geekbench.com/v6/compute/4500763
+https://browser.geekbench.com/v6/compute/4500763/claim?key=981073
+-----------------------------------
+Ejecutando Geekbench en la GPU 5 (NVIDIA GeForce RTX 4090)...
+[0723/113226:FATAL:nvml_library.cpp(153)] Failed to load nvmlInit_v2: ./tests/geekbench/geekbench_x86_64: undefined symbol: nvmlInit_v2
+Prueba en la GPU 5 (NVIDIA GeForce RTX 4090) completada. Resultado: https://www.geekbench.com/
+https://store.primatelabs.com/v6
+https://browser.geekbench.com/v6/compute/4500768
+https://browser.geekbench.com/v6/compute/4500768/claim?key=715270
+-----------------------------------
+Ejecutando Geekbench en la GPU 6 (NVIDIA GeForce RTX 4090)...
+[0723/113320:FATAL:nvml_library.cpp(153)] Failed to load nvmlInit_v2: ./tests/geekbench/geekbench_x86_64: undefined symbol: nvmlInit_v2
+Prueba en la GPU 6 (NVIDIA GeForce RTX 4090) completada. Resultado: https://www.geekbench.com/
+https://store.primatelabs.com/v6
+https://browser.geekbench.com/v6/compute/4500775
+https://browser.geekbench.com/v6/compute/4500775/claim?key=295482
+-----------------------------------
+Ejecutando Geekbench en la GPU 7 (NVIDIA GeForce RTX 4090)...
+[0723/113418:FATAL:nvml_library.cpp(153)] Failed to load nvmlInit_v2: ./tests/geekbench/geekbench_x86_64: undefined symbol: nvmlInit_v2
+Prueba en la GPU 7 (NVIDIA GeForce RTX 4090) completada. Resultado: https://www.geekbench.com/
+https://store.primatelabs.com/v6
+https://browser.geekbench.com/v6/compute/4500780
+https://browser.geekbench.com/v6/compute/4500780/claim?key=564815
+-----------------------------------
+Todas las pruebas en las GPUs han sido completadas.
+Ejecutando Anchobanda...
+Detectando CPUs disponibles...
+Total de CPUs: 64
+Ejecutando STREAM Benchmark en la CPU 0...
+Pruebas completadas en la CPU 0. Salida guardada en stream_output_CPU0.txt.
+Ejecutando STREAM Benchmark en la CPU 1...
+Pruebas completadas en la CPU 1. Salida guardada en stream_output_CPU1.txt.
+Ejecutando STREAM Benchmark en la CPU 2...
+Pruebas completadas en la CPU 2. Salida guardada en stream_output_CPU2.txt.
+Ejecutando STREAM Benchmark en la CPU 3...
+Pruebas completadas en la CPU 3. Salida guardada en stream_output_CPU3.txt.
+Ejecutando STREAM Benchmark en la CPU 4...
+Pruebas completadas en la CPU 4. Salida guardada en stream_output_CPU4.txt.
+Ejecutando STREAM Benchmark en la CPU 5...
+Pruebas completadas en la CPU 5. Salida guardada en stream_output_CPU5.txt.
+Ejecutando STREAM Benchmark en la CPU 6...
+Pruebas completadas en la CPU 6. Salida guardada en stream_output_CPU6.txt.
+Ejecutando STREAM Benchmark en la CPU 7...
+Pruebas completadas en la CPU 7. Salida guardada en stream_output_CPU7.txt.
+Ejecutando STREAM Benchmark en la CPU 8...
+Pruebas completadas en la CPU 8. Salida guardada en stream_output_CPU8.txt.
+Ejecutando STREAM Benchmark en la CPU 9...
+Pruebas completadas en la CPU 9. Salida guardada en stream_output_CPU9.txt.
+Ejecutando STREAM Benchmark en la CPU 10...
+Pruebas completadas en la CPU 10. Salida guardada en stream_output_CPU10.txt.
+Ejecutando STREAM Benchmark en la CPU 11...
+Pruebas completadas en la CPU 11. Salida guardada en stream_output_CPU11.txt.
+Ejecutando STREAM Benchmark en la CPU 12...
+Pruebas completadas en la CPU 12. Salida guardada en stream_output_CPU12.txt.
+Ejecutando STREAM Benchmark en la CPU 13...
+Pruebas completadas en la CPU 13. Salida guardada en stream_output_CPU13.txt.
+Ejecutando STREAM Benchmark en la CPU 14...
+Pruebas completadas en la CPU 14. Salida guardada en stream_output_CPU14.txt.
+Ejecutando STREAM Benchmark en la CPU 15...
+Pruebas completadas en la CPU 15. Salida guardada en stream_output_CPU15.txt.
+Ejecutando STREAM Benchmark en la CPU 16...
+Pruebas completadas en la CPU 16. Salida guardada en stream_output_CPU16.txt.
+Ejecutando STREAM Benchmark en la CPU 17...
+Pruebas completadas en la CPU 17. Salida guardada en stream_output_CPU17.txt.
+Ejecutando STREAM Benchmark en la CPU 18...
+Pruebas completadas en la CPU 18. Salida guardada en stream_output_CPU18.txt.
+Ejecutando STREAM Benchmark en la CPU 19...
+Pruebas completadas en la CPU 19. Salida guardada en stream_output_CPU19.txt.
+Ejecutando STREAM Benchmark en la CPU 20...
+Pruebas completadas en la CPU 20. Salida guardada en stream_output_CPU20.txt.
+Ejecutando STREAM Benchmark en la CPU 21...
+Pruebas completadas en la CPU 21. Salida guardada en stream_output_CPU21.txt.
+Ejecutando STREAM Benchmark en la CPU 22...
+Pruebas completadas en la CPU 22. Salida guardada en stream_output_CPU22.txt.
+Ejecutando STREAM Benchmark en la CPU 23...
+Pruebas completadas en la CPU 23. Salida guardada en stream_output_CPU23.txt.
+Ejecutando STREAM Benchmark en la CPU 24...
+Pruebas completadas en la CPU 24. Salida guardada en stream_output_CPU24.txt.
+Ejecutando STREAM Benchmark en la CPU 25...
+Pruebas completadas en la CPU 25. Salida guardada en stream_output_CPU25.txt.
+Ejecutando STREAM Benchmark en la CPU 26...
+Pruebas completadas en la CPU 26. Salida guardada en stream_output_CPU26.txt.
+Ejecutando STREAM Benchmark en la CPU 27...
+Pruebas completadas en la CPU 27. Salida guardada en stream_output_CPU27.txt.
+Ejecutando STREAM Benchmark en la CPU 28...
+Pruebas completadas en la CPU 28. Salida guardada en stream_output_CPU28.txt.
+Ejecutando STREAM Benchmark en la CPU 29...
+Pruebas completadas en la CPU 29. Salida guardada en stream_output_CPU29.txt.
+Ejecutando STREAM Benchmark en la CPU 30...
+Pruebas completadas en la CPU 30. Salida guardada en stream_output_CPU30.txt.
+Ejecutando STREAM Benchmark en la CPU 31...
+Pruebas completadas en la CPU 31. Salida guardada en stream_output_CPU31.txt.
+Ejecutando STREAM Benchmark en la CPU 32...
+Pruebas completadas en la CPU 32. Salida guardada en stream_output_CPU32.txt.
+Ejecutando STREAM Benchmark en la CPU 33...
+Pruebas completadas en la CPU 33. Salida guardada en stream_output_CPU33.txt.
+Ejecutando STREAM Benchmark en la CPU 34...
+Pruebas completadas en la CPU 34. Salida guardada en stream_output_CPU34.txt.
+Ejecutando STREAM Benchmark en la CPU 35...
+Pruebas completadas en la CPU 35. Salida guardada en stream_output_CPU35.txt.
+Ejecutando STREAM Benchmark en la CPU 36...
+Pruebas completadas en la CPU 36. Salida guardada en stream_output_CPU36.txt.
+Ejecutando STREAM Benchmark en la CPU 37...
+Pruebas completadas en la CPU 37. Salida guardada en stream_output_CPU37.txt.
+Ejecutando STREAM Benchmark en la CPU 38...
+Pruebas completadas en la CPU 38. Salida guardada en stream_output_CPU38.txt.
+Ejecutando STREAM Benchmark en la CPU 39...
+Pruebas completadas en la CPU 39. Salida guardada en stream_output_CPU39.txt.
+Ejecutando STREAM Benchmark en la CPU 40...
+Pruebas completadas en la CPU 40. Salida guardada en stream_output_CPU40.txt.
+Ejecutando STREAM Benchmark en la CPU 41...
+Pruebas completadas en la CPU 41. Salida guardada en stream_output_CPU41.txt.
+Ejecutando STREAM Benchmark en la CPU 42...
+Pruebas completadas en la CPU 42. Salida guardada en stream_output_CPU42.txt.
+Ejecutando STREAM Benchmark en la CPU 43...
+Pruebas completadas en la CPU 43. Salida guardada en stream_output_CPU43.txt.
+Ejecutando STREAM Benchmark en la CPU 44...
+Pruebas completadas en la CPU 44. Salida guardada en stream_output_CPU44.txt.
+Ejecutando STREAM Benchmark en la CPU 45...
+Pruebas completadas en la CPU 45. Salida guardada en stream_output_CPU45.txt.
+Ejecutando STREAM Benchmark en la CPU 46...
+Pruebas completadas en la CPU 46. Salida guardada en stream_output_CPU46.txt.
+Ejecutando STREAM Benchmark en la CPU 47...
+Pruebas completadas en la CPU 47. Salida guardada en stream_output_CPU47.txt.
+Ejecutando STREAM Benchmark en la CPU 48...
+Pruebas completadas en la CPU 48. Salida guardada en stream_output_CPU48.txt.
+Ejecutando STREAM Benchmark en la CPU 49...
+Pruebas completadas en la CPU 49. Salida guardada en stream_output_CPU49.txt.
+Ejecutando STREAM Benchmark en la CPU 50...
+Pruebas completadas en la CPU 50. Salida guardada en stream_output_CPU50.txt.
+Ejecutando STREAM Benchmark en la CPU 51...
+Pruebas completadas en la CPU 51. Salida guardada en stream_output_CPU51.txt.
+Ejecutando STREAM Benchmark en la CPU 52...
+Pruebas completadas en la CPU 52. Salida guardada en stream_output_CPU52.txt.
+Ejecutando STREAM Benchmark en la CPU 53...
+Pruebas completadas en la CPU 53. Salida guardada en stream_output_CPU53.txt.
+Ejecutando STREAM Benchmark en la CPU 54...
+Pruebas completadas en la CPU 54. Salida guardada en stream_output_CPU54.txt.
+Ejecutando STREAM Benchmark en la CPU 55...
+Pruebas completadas en la CPU 55. Salida guardada en stream_output_CPU55.txt.
+Ejecutando STREAM Benchmark en la CPU 56...
+Pruebas completadas en la CPU 56. Salida guardada en stream_output_CPU56.txt.
+Ejecutando STREAM Benchmark en la CPU 57...
+Pruebas completadas en la CPU 57. Salida guardada en stream_output_CPU57.txt.
+Ejecutando STREAM Benchmark en la CPU 58...
+Pruebas completadas en la CPU 58. Salida guardada en stream_output_CPU58.txt.
+Ejecutando STREAM Benchmark en la CPU 59...
+Pruebas completadas en la CPU 59. Salida guardada en stream_output_CPU59.txt.
+Ejecutando STREAM Benchmark en la CPU 60...
+Pruebas completadas en la CPU 60. Salida guardada en stream_output_CPU60.txt.
+Ejecutando STREAM Benchmark en la CPU 61...
+Pruebas completadas en la CPU 61. Salida guardada en stream_output_CPU61.txt.
+Ejecutando STREAM Benchmark en la CPU 62...
+Pruebas completadas en la CPU 62. Salida guardada en stream_output_CPU62.txt.
+Ejecutando STREAM Benchmark en la CPU 63...
+Pruebas completadas en la CPU 63. Salida guardada en stream_output_CPU63.txt.
+Analizando los resultados del STREAM Benchmark...
+--------------------------------------------
+Resultados para stream_output_CPU0.txt
+--------------------------------------------
+Copy: 37162.7 MB/s
+Scale: 38823.2 MB/s
+Add: 40299.0 MB/s
+Triad: 39959.2 MB/s
+
+Resultados para stream_output_CPU1.txt
+--------------------------------------------
+Copy: 35286.1 MB/s
+Scale: 38293.5 MB/s
+Add: 39652.9 MB/s
+Triad: 39234.1 MB/s
+
+Resultados para stream_output_CPU10.txt
+--------------------------------------------
+Copy: 36910.0 MB/s
+Scale: 39016.2 MB/s
+Add: 40270.2 MB/s
+Triad: 40178.3 MB/s
+
+Resultados para stream_output_CPU11.txt
+--------------------------------------------
+Copy: 35460.9 MB/s
+Scale: 38407.2 MB/s
+Add: 39762.3 MB/s
+Triad: 39170.9 MB/s
+
+Resultados para stream_output_CPU12.txt
+--------------------------------------------
+Copy: 38011.5 MB/s
+Scale: 38489.2 MB/s
+Add: 40296.3 MB/s
+Triad: 40363.4 MB/s
+
+Resultados para stream_output_CPU13.txt
+--------------------------------------------
+Copy: 35471.9 MB/s
+Scale: 38237.3 MB/s
+Add: 40037.5 MB/s
+Triad: 40120.3 MB/s
+
+Resultados para stream_output_CPU14.txt
+--------------------------------------------
+Copy: 37079.8 MB/s
+Scale: 38607.7 MB/s
+Add: 39902.8 MB/s
+Triad: 39882.1 MB/s
+
+Resultados para stream_output_CPU15.txt
+--------------------------------------------
+Copy: 36811.3 MB/s
+Scale: 38124.6 MB/s
+Add: 39791.8 MB/s
+Triad: 39464.6 MB/s
+
+Resultados para stream_output_CPU16.txt
+--------------------------------------------
+Copy: 35529.0 MB/s
+Scale: 39015.9 MB/s
+Add: 39752.3 MB/s
+Triad: 39930.1 MB/s
+
+Resultados para stream_output_CPU17.txt
+--------------------------------------------
+Copy: 37872.1 MB/s
+Scale: 38131.4 MB/s
+Add: 39929.3 MB/s
+Triad: 40111.1 MB/s
+
+Resultados para stream_output_CPU18.txt
+--------------------------------------------
+Copy: 35505.2 MB/s
+Scale: 38053.3 MB/s
+Add: 39897.1 MB/s
+Triad: 39450.9 MB/s
+
+Resultados para stream_output_CPU19.txt
+--------------------------------------------
+Copy: 37269.8 MB/s
+Scale: 38026.3 MB/s
+Add: 39930.1 MB/s
+Triad: 39925.2 MB/s
+
+Resultados para stream_output_CPU2.txt
+--------------------------------------------
+Copy: 36983.5 MB/s
+Scale: 38907.1 MB/s
+Add: 40047.7 MB/s
+Triad: 39956.9 MB/s
+
+Resultados para stream_output_CPU20.txt
+--------------------------------------------
+Copy: 37023.3 MB/s
+Scale: 38660.2 MB/s
+Add: 39889.4 MB/s
+Triad: 39806.0 MB/s
+
+Resultados para stream_output_CPU21.txt
+--------------------------------------------
+Copy: 37149.8 MB/s
+Scale: 38100.8 MB/s
+Add: 39794.4 MB/s
+Triad: 39071.3 MB/s
+
+Resultados para stream_output_CPU22.txt
+--------------------------------------------
+Copy: 37458.5 MB/s
+Scale: 38570.5 MB/s
+Add: 40092.7 MB/s
+Triad: 39824.1 MB/s
+
+Resultados para stream_output_CPU23.txt
+--------------------------------------------
+Copy: 37143.4 MB/s
+Scale: 37952.9 MB/s
+Add: 39438.7 MB/s
+Triad: 39243.0 MB/s
+
+Resultados para stream_output_CPU24.txt
+--------------------------------------------
+Copy: 37374.6 MB/s
+Scale: 38616.0 MB/s
+Add: 40254.0 MB/s
+Triad: 40173.1 MB/s
+
+Resultados para stream_output_CPU25.txt
+--------------------------------------------
+Copy: 37764.7 MB/s
+Scale: 38405.0 MB/s
+Add: 40009.3 MB/s
+Triad: 39944.4 MB/s
+
+Resultados para stream_output_CPU26.txt
+--------------------------------------------
+Copy: 35330.7 MB/s
+Scale: 38978.0 MB/s
+Add: 40168.3 MB/s
+Triad: 40138.9 MB/s
+
+Resultados para stream_output_CPU27.txt
+--------------------------------------------
+Copy: 35162.9 MB/s
+Scale: 37826.2 MB/s
+Add: 40000.7 MB/s
+Triad: 39787.1 MB/s
+
+Resultados para stream_output_CPU28.txt
+--------------------------------------------
+Copy: 37750.1 MB/s
+Scale: 39136.5 MB/s
+Add: 40211.8 MB/s
+Triad: 39974.3 MB/s
+
+Resultados para stream_output_CPU29.txt
+--------------------------------------------
+Copy: 37623.9 MB/s
+Scale: 37963.1 MB/s
+Add: 39781.2 MB/s
+Triad: 40029.1 MB/s
+
+Resultados para stream_output_CPU3.txt
+--------------------------------------------
+Copy: 37239.5 MB/s
+Scale: 38015.0 MB/s
+Add: 39731.9 MB/s
+Triad: 39346.8 MB/s
+
+Resultados para stream_output_CPU30.txt
+--------------------------------------------
+Copy: 36813.6 MB/s
+Scale: 38689.2 MB/s
+Add: 39926.9 MB/s
+Triad: 39729.4 MB/s
+
+Resultados para stream_output_CPU31.txt
+--------------------------------------------
+Copy: 35186.0 MB/s
+Scale: 37823.0 MB/s
+Add: 39644.9 MB/s
+Triad: 39000.5 MB/s
+
+Resultados para stream_output_CPU32.txt
+--------------------------------------------
+Copy: 37280.9 MB/s
+Scale: 39103.2 MB/s
+Add: 40382.0 MB/s
+Triad: 39956.7 MB/s
+
+Resultados para stream_output_CPU33.txt
+--------------------------------------------
+Copy: 37102.3 MB/s
+Scale: 38016.1 MB/s
+Add: 40163.1 MB/s
+Triad: 39446.2 MB/s
+
+Resultados para stream_output_CPU34.txt
+--------------------------------------------
+Copy: 35133.0 MB/s
+Scale: 38574.1 MB/s
+Add: 39940.0 MB/s
+Triad: 39851.5 MB/s
+
+Resultados para stream_output_CPU35.txt
+--------------------------------------------
+Copy: 35192.9 MB/s
+Scale: 38112.2 MB/s
+Add: 39896.9 MB/s
+Triad: 38999.0 MB/s
+
+Resultados para stream_output_CPU36.txt
+--------------------------------------------
+Copy: 37038.1 MB/s
+Scale: 38797.4 MB/s
+Add: 40200.2 MB/s
+Triad: 40039.9 MB/s
+
+Resultados para stream_output_CPU37.txt
+--------------------------------------------
+Copy: 37101.3 MB/s
+Scale: 38267.3 MB/s
+Add: 39903.6 MB/s
+Triad: 39451.8 MB/s
+
+Resultados para stream_output_CPU38.txt
+--------------------------------------------
+Copy: 35099.5 MB/s
+Scale: 38560.0 MB/s
+Add: 40081.7 MB/s
+Triad: 39863.9 MB/s
+
+Resultados para stream_output_CPU39.txt
+--------------------------------------------
+Copy: 36934.6 MB/s
+Scale: 37833.9 MB/s
+Add: 39644.1 MB/s
+Triad: 40043.3 MB/s
+
+Resultados para stream_output_CPU4.txt
+--------------------------------------------
+Copy: 35372.8 MB/s
+Scale: 38968.4 MB/s
+Add: 40060.8 MB/s
+Triad: 40156.3 MB/s
+
+Resultados para stream_output_CPU40.txt
+--------------------------------------------
+Copy: 37503.6 MB/s
+Scale: 39468.3 MB/s
+Add: 40588.4 MB/s
+Triad: 40392.1 MB/s
+
+Resultados para stream_output_CPU41.txt
+--------------------------------------------
+Copy: 35691.5 MB/s
+Scale: 38360.0 MB/s
+Add: 40165.7 MB/s
+Triad: 40202.8 MB/s
+
+Resultados para stream_output_CPU42.txt
+--------------------------------------------
+Copy: 35327.0 MB/s
+Scale: 38244.4 MB/s
+Add: 40014.2 MB/s
+Triad: 40144.7 MB/s
+
+Resultados para stream_output_CPU43.txt
+--------------------------------------------
+Copy: 35671.5 MB/s
+Scale: 38496.1 MB/s
+Add: 40468.7 MB/s
+Triad: 39543.6 MB/s
+
+Resultados para stream_output_CPU44.txt
+--------------------------------------------
+Copy: 37257.9 MB/s
+Scale: 38935.3 MB/s
+Add: 40397.2 MB/s
+Triad: 40101.9 MB/s
+
+Resultados para stream_output_CPU45.txt
+--------------------------------------------
+Copy: 35394.5 MB/s
+Scale: 38335.9 MB/s
+Add: 40015.0 MB/s
+Triad: 40107.9 MB/s
+
+Resultados para stream_output_CPU46.txt
+--------------------------------------------
+Copy: 36950.4 MB/s
+Scale: 38756.2 MB/s
+Add: 39848.1 MB/s
+Triad: 39816.6 MB/s
+
+Resultados para stream_output_CPU47.txt
+--------------------------------------------
+Copy: 37394.1 MB/s
+Scale: 38169.1 MB/s
+Add: 40137.9 MB/s
+Triad: 39595.8 MB/s
+
+Resultados para stream_output_CPU48.txt
+--------------------------------------------
+Copy: 35571.3 MB/s
+Scale: 38796.3 MB/s
+Add: 40250.8 MB/s
+Triad: 39858.0 MB/s
+
+Resultados para stream_output_CPU49.txt
+--------------------------------------------
+Copy: 37288.7 MB/s
+Scale: 38206.6 MB/s
+Add: 40139.7 MB/s
+Triad: 40047.5 MB/s
+
+Resultados para stream_output_CPU5.txt
+--------------------------------------------
+Copy: 35366.8 MB/s
+Scale: 38164.5 MB/s
+Add: 40138.9 MB/s
+Triad: 39252.6 MB/s
+
+Resultados para stream_output_CPU50.txt
+--------------------------------------------
+Copy: 37041.4 MB/s
+Scale: 38047.6 MB/s
+Add: 39773.1 MB/s
+Triad: 39326.6 MB/s
+
+Resultados para stream_output_CPU51.txt
+--------------------------------------------
+Copy: 36717.4 MB/s
+Scale: 38643.8 MB/s
+Add: 39759.8 MB/s
+Triad: 39728.6 MB/s
+
+Resultados para stream_output_CPU52.txt
+--------------------------------------------
+Copy: 37433.5 MB/s
+Scale: 38687.0 MB/s
+Add: 40183.3 MB/s
+Triad: 39939.2 MB/s
+
+Resultados para stream_output_CPU53.txt
+--------------------------------------------
+Copy: 37726.8 MB/s
+Scale: 38277.7 MB/s
+Add: 40131.1 MB/s
+Triad: 39070.4 MB/s
+
+Resultados para stream_output_CPU54.txt
+--------------------------------------------
+Copy: 36506.7 MB/s
+Scale: 38240.8 MB/s
+Add: 39537.8 MB/s
+Triad: 39671.8 MB/s
+
+Resultados para stream_output_CPU55.txt
+--------------------------------------------
+Copy: 37151.9 MB/s
+Scale: 38000.2 MB/s
+Add: 39660.5 MB/s
+Triad: 39521.7 MB/s
+
+Resultados para stream_output_CPU56.txt
+--------------------------------------------
+Copy: 35577.2 MB/s
+Scale: 38973.4 MB/s
+Add: 40141.3 MB/s
+Triad: 40156.3 MB/s
+
+Resultados para stream_output_CPU57.txt
+--------------------------------------------
+Copy: 35626.8 MB/s
+Scale: 38390.2 MB/s
+Add: 40082.5 MB/s
+Triad: 40124.5 MB/s
+
+Resultados para stream_output_CPU58.txt
+--------------------------------------------
+Copy: 37574.2 MB/s
+Scale: 38973.2 MB/s
+Add: 40201.8 MB/s
+Triad: 40023.4 MB/s
+
+Resultados para stream_output_CPU59.txt
+--------------------------------------------
+Copy: 35240.2 MB/s
+Scale: 38017.2 MB/s
+Add: 39471.4 MB/s
+Triad: 39138.1 MB/s
+
+Resultados para stream_output_CPU6.txt
+--------------------------------------------
+Copy: 36819.6 MB/s
+Scale: 38743.4 MB/s
+Add: 40086.1 MB/s
+Triad: 39996.7 MB/s
+
+Resultados para stream_output_CPU60.txt
+--------------------------------------------
+Copy: 37179.2 MB/s
+Scale: 38768.0 MB/s
+Add: 40043.5 MB/s
+Triad: 40096.1 MB/s
+
+Resultados para stream_output_CPU61.txt
+--------------------------------------------
+Copy: 37137.0 MB/s
+Scale: 38118.1 MB/s
+Add: 39960.8 MB/s
+Triad: 39698.0 MB/s
+
+Resultados para stream_output_CPU62.txt
+--------------------------------------------
+Copy: 35405.0 MB/s
+Scale: 38616.0 MB/s
+Add: 39727.6 MB/s
+Triad: 39916.8 MB/s
+
+Resultados para stream_output_CPU63.txt
+--------------------------------------------
+Copy: 35019.6 MB/s
+Scale: 37951.9 MB/s
+Add: 39884.4 MB/s
+Triad: 39202.2 MB/s
+
+Resultados para stream_output_CPU7.txt
+--------------------------------------------
+Copy: 36804.8 MB/s
+Scale: 38246.6 MB/s
+Add: 39614.5 MB/s
+Triad: 39632.6 MB/s
+
+Resultados para stream_output_CPU8.txt
+--------------------------------------------
+Copy: 37164.0 MB/s
+Scale: 39023.3 MB/s
+Add: 40495.3 MB/s
+Triad: 40326.8 MB/s
+
+Resultados para stream_output_CPU9.txt
+--------------------------------------------
+Copy: 37362.4 MB/s
+Scale: 38393.4 MB/s
+Add: 40267.5 MB/s
+Triad: 40348.8 MB/s
+
+--------------------------------------------
+Promedios: Copy=36555.23 MB/s, Scale=38455.41 MB/s, Add=39999.57 MB/s, Triad=39790.71 MB/s
+--------------------------------------------
+Detectando CPUs con rendimiento bajo...
+[32mCPU 34 está funcionando correctamente.[0m
+[32mCPU 35 está funcionando correctamente.[0m
+[32mCPU 36 está funcionando correctamente.[0m
+[32mCPU 37 está funcionando correctamente.[0m
+[32mCPU 30 está funcionando correctamente.[0m
+[32mCPU 31 está funcionando correctamente.[0m
+[32mCPU 32 está funcionando correctamente.[0m
+[32mCPU 33 está funcionando correctamente.[0m
+[32mCPU 38 está funcionando correctamente.[0m
+[32mCPU 39 está funcionando correctamente.[0m
+[32mCPU 9 está funcionando correctamente.[0m
+[32mCPU 58 está funcionando correctamente.[0m
+[32mCPU 8 está funcionando correctamente.[0m
+[32mCPU 59 está funcionando correctamente.[0m
+[32mCPU 7 está funcionando correctamente.[0m
+[32mCPU 56 está funcionando correctamente.[0m
+[32mCPU 6 está funcionando correctamente.[0m
+[32mCPU 57 está funcionando correctamente.[0m
+[32mCPU 54 está funcionando correctamente.[0m
+[32mCPU 5 está funcionando correctamente.[0m
+[32mCPU 55 está funcionando correctamente.[0m
+[32mCPU 4 está funcionando correctamente.[0m
+[32mCPU 52 está funcionando correctamente.[0m
+[32mCPU 3 está funcionando correctamente.[0m
+[32mCPU 53 está funcionando correctamente.[0m
+[32mCPU 2 está funcionando correctamente.[0m
+[32mCPU 50 está funcionando correctamente.[0m
+[32mCPU 1 está funcionando correctamente.[0m
+[32mCPU 51 está funcionando correctamente.[0m
+[32mCPU 0 está funcionando correctamente.[0m
+[32mCPU 27 está funcionando correctamente.[0m
+[32mCPU 26 está funcionando correctamente.[0m
+[32mCPU 25 está funcionando correctamente.[0m
+[32mCPU 24 está funcionando correctamente.[0m
+[32mCPU 23 está funcionando correctamente.[0m
+[32mCPU 22 está funcionando correctamente.[0m
+[32mCPU 21 está funcionando correctamente.[0m
+[32mCPU 20 está funcionando correctamente.[0m
+[32mCPU 29 está funcionando correctamente.[0m
+[32mCPU 28 está funcionando correctamente.[0m
+[32mCPU 41 está funcionando correctamente.[0m
+[32mCPU 40 está funcionando correctamente.[0m
+[32mCPU 43 está funcionando correctamente.[0m
+[32mCPU 42 está funcionando correctamente.[0m
+[32mCPU 45 está funcionando correctamente.[0m
+[32mCPU 44 está funcionando correctamente.[0m
+[32mCPU 47 está funcionando correctamente.[0m
+[32mCPU 46 está funcionando correctamente.[0m
+[32mCPU 49 está funcionando correctamente.[0m
+[32mCPU 48 está funcionando correctamente.[0m
+[32mCPU 18 está funcionando correctamente.[0m
+[32mCPU 19 está funcionando correctamente.[0m
+[32mCPU 12 está funcionando correctamente.[0m
+[32mCPU 13 está funcionando correctamente.[0m
+[32mCPU 10 está funcionando correctamente.[0m
+[32mCPU 11 está funcionando correctamente.[0m
+[32mCPU 16 está funcionando correctamente.[0m
+[32mCPU 17 está funcionando correctamente.[0m
+[32mCPU 14 está funcionando correctamente.[0m
+[32mCPU 15 está funcionando correctamente.[0m
+[32mCPU 63 está funcionando correctamente.[0m
+[32mCPU 62 está funcionando correctamente.[0m
+[32mCPU 61 está funcionando correctamente.[0m
+[32mCPU 60 está funcionando correctamente.[0m
+--------------------------------------------
+Comparativa final de mejores resultados:
+--------------------------------------------
+[1mMejor resultado Copy:[0m 38011.5 MB/s (CPU 12)
+[1mMejor resultado Scale:[0m 39468.3 MB/s (CPU 40)
+[1mMejor resultado Add:[0m 40588.4 MB/s (CPU 40)
+[1mMejor resultado Triad:[0m 40392.1 MB/s (CPU 40)
+--------------------------------------------
+Comparativa de rendimiento completada.
+Ejecutando Mprime...
+La memoria total del sistema es: 503 GB
+Capturando frecuencias de CPU en cpu_clocks.txt...
+Detener después de 300 segundos.
+=====================================
+Progreso: 0% 
+Promedio parcial: Promedio de frecuencias capturadas: 3367.06 MHz
+Temperatura CPU1: 58.000 ºC | Temperatura CPU2: 53.000 ºC
+Progreso: 2% 
+Promedio parcial: Promedio de frecuencias capturadas: 3368.00 MHz
+Temperatura CPU1: 59.000 ºC | Temperatura CPU2: 53.000 ºC
+Progreso: 5% 
+Promedio parcial: Promedio de frecuencias capturadas: 3382.63 MHz
+Temperatura CPU1: 63.000 ºC | Temperatura CPU2: 59.000 ºC
+Progreso: 15% 
+Promedio parcial: Promedio de frecuencias capturadas: 3460.58 MHz
+Temperatura CPU1: 65.000 ºC | Temperatura CPU2: 63.000 ºC
+Progreso: 21% 
+Promedio parcial: Promedio de frecuencias capturadas: 3507.35 MHz
+Temperatura CPU1: 66.000 ºC | Temperatura CPU2: 65.000 ºC
+Progreso: 27% 
+Promedio parcial: Promedio de frecuencias capturadas: 3538.53 MHz
+Temperatura CPU1: 66.000 ºC | Temperatura CPU2: 65.000 ºC
+Progreso: 33% 
+Promedio parcial: Promedio de frecuencias capturadas: 3560.80 MHz
+Temperatura CPU1: 66.000 ºC | Temperatura CPU2: 65.000 ºC
+Progreso: 40% 
+Promedio parcial: Promedio de frecuencias capturadas: 3577.50 MHz
+Temperatura CPU1: 66.000 ºC | Temperatura CPU2: 65.000 ºC
+Progreso: 46% 
+Promedio parcial: Promedio de frecuencias capturadas: 3590.49 MHz
+Temperatura CPU1: 66.000 ºC | Temperatura CPU2: 65.000 ºC
+Progreso: 53% 
+Promedio parcial: Promedio de frecuencias capturadas: 3600.89 MHz
+Temperatura CPU1: 66.000 ºC | Temperatura CPU2: 65.000 ºC
+Progreso: 60% 
+Promedio parcial: Promedio de frecuencias capturadas: 3609.40 MHz
+Temperatura CPU1: 66.000 ºC | Temperatura CPU2: 65.000 ºC
+Progreso: 66% 
+Promedio parcial: Promedio de frecuencias capturadas: 3616.48 MHz
+Temperatura CPU1: 66.000 ºC | Temperatura CPU2: 65.000 ºC
+Progreso: 73% 
+Promedio parcial: Promedio de frecuencias capturadas: 3622.48 MHz
+Temperatura CPU1: 66.000 ºC | Temperatura CPU2: 64.000 ºC
+Progreso: 83% 
+Promedio parcial: Promedio de frecuencias capturadas: 3627.62 MHz
+Temperatura CPU1: 65.000 ºC | Temperatura CPU2: 64.000 ºC
+Progreso: 92% 
+Promedio parcial: Promedio de frecuencias capturadas: 3632.07 MHz
+Temperatura CPU1: 65.000 ºC | Temperatura CPU2: 64.000 ºC
+
+Tiempo de captura completo. Calculando promedio final...
+Promedio de frecuencias capturadas: 3632.07 MHz
+Temperatura CPU1: 66.000 ºC | Temperatura CPU2: 65.000 ºC
+La CPU tiene un resultado OK.
+¡Proceso completado!
+Proceso de mprime terminado de manera segura.
+Ejecutando Geekbench...
+Geekbench 6.2.2 : https://www.geekbench.com/
+
+Geekbench 6 requires an active internet connection and automatically uploads 
+benchmark results to the Geekbench Browser.
+
+Upgrade to Geekbench 6 Pro to enable offline use and unlock other features:
+
+  https://store.primatelabs.com/v6
+
+Enter your Geekbench 6 Pro license using the following command line:
+
+  ./tests/geekbench/geekbench_x86_64 --unlock <email> <key>
+
+System Information
+  Operating System              Azken (Cubic 2025-07-04 10:49)
+  Kernel                        Linux 6.11.0-17-generic x86_64
+  Model                         ASUSTeK COMPUTER INC. ESC8000A-E12
+  Motherboard                   ASUSTeK COMPUTER INC. K14PG-D24 Series
+  BIOS                          American Megatrends Inc. 1102
+
+CPU Information
+  Name                          AMD EPYC 9124
+  Topology                      2 Processors, 32 Cores, 64 Threads
+  Identifier                    AuthenticAMD Family 25 Model 17 Stepping 1
+  Base Frequency                3.71 GHz
+  L1 Instruction Cache          32.0 KB x 16
+  L1 Data Cache                 32.0 KB x 16
+  L2 Cache                      1.00 MB x 16
+  L3 Cache                      8.00 MB x 4
+
+Memory Information
+  Size                          504 GB
+
+
+Single-Core
+  Running File Compression
+  Running Navigation
+  Running HTML5 Browser
+  Running PDF Renderer
+  Running Photo Library
+  Running Clang
+  Running Text Processing
+  Running Asset Compression
+  Running Object Detection
+  Running Background Blur
+  Running Horizon Detection
+  Running Object Remover
+  Running HDR
+  Running Photo Filter
+  Running Ray Tracer
+  Running Structure from Motion
+
+Multi-Core
+  Running File Compression
+  Running Navigation
+  Running HTML5 Browser
+  Running PDF Renderer
+  Running Photo Library
+  Running Clang
+  Running Text Processing
+  Running Asset Compression
+  Running Object Detection
+  Running Background Blur
+  Running Horizon Detection
+  Running Object Remover
+  Running HDR
+  Running Photo Filter
+  Running Ray Tracer
+  Running Structure from Motion
+
+
+Uploading results to the Geekbench Browser. This could take a minute or two 
+depending on the speed of your internet connection.
+
+Upload succeeded. Visit the following link and view your results online:
+
+  https://browser.geekbench.com/v6/cpu/12985526
+
+Visit the following link and add this result to your profile:
+
+  https://browser.geekbench.com/v6/cpu/12985526/claim?key=663185
+
+Ejecutando GPU-BURN...
+GPU 0: NVIDIA GeForce RTX 4090 (UUID: GPU-0f2ab2a4-ccd3-4d10-4039-b9618ea38a19)
+GPU 1: NVIDIA GeForce RTX 4090 (UUID: GPU-2b0093a0-722c-0622-fc6d-fa7bca4422e4)
+GPU 2: NVIDIA GeForce RTX 4090 (UUID: GPU-c2d4825d-6df4-4bd0-92ce-94d253bbb8b3)
+GPU 3: NVIDIA GeForce RTX 4090 (UUID: GPU-e348e844-dc24-8b83-fefa-baa0d59d2be8)
+GPU 4: NVIDIA GeForce RTX 4090 (UUID: GPU-2c9b7452-fba4-dbb9-3787-7497ff092cd8)
+GPU 5: NVIDIA GeForce RTX 4090 (UUID: GPU-746dcf77-a205-07e3-a070-e35eaf54f780)
+GPU 6: NVIDIA GeForce RTX 4090 (UUID: GPU-298d6387-d282-b3af-9286-31776d377fc9)
+GPU 7: NVIDIA GeForce RTX 4090 (UUID: GPU-a5f7970f-214c-90ac-32c3-b435a80da6a1)
+Using compare file: compare.ptx
+Burning for 300 seconds.
+
+
+
+
+
+
+
+
+
+
+	Summary at:   Wed Jul 23 11:50:01 CEST 2025
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Summary at:   Wed Jul 23 11:50:31 CEST 2025
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Summary at:   Wed Jul 23 11:51:02 CEST 2025
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Summary at:   Wed Jul 23 11:51:33 CEST 2025
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Summary at:   Wed Jul 23 11:52:04 CEST 2025
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Summary at:   Wed Jul 23 11:52:34 CEST 2025
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Summary at:   Wed Jul 23 11:53:05 CEST 2025
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Summary at:   Wed Jul 23 11:53:36 CEST 2025
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Summary at:   Wed Jul 23 11:54:07 CEST 2025
+
+
+
+
+
+
+
+
+
+
+
+
+
+Killing processes with SIGTERM (soft kill)
+Using compare file: compare.ptx
+Burning for 300 seconds.
+Initialized device 4 with 24081 MB of memory (23663 MB available, using 21296 MB of it), using FLOATS, using Tensor Cores
+Results are 268435456 bytes each, thus performing 81 iterations
+Freed memory for dev 4
+Uninitted cublas
+Using compare file: compare.ptx
+Burning for 300 seconds.
+Initialized device 0 with 24081 MB of memory (23663 MB available, using 21296 MB of it), using FLOATS, using Tensor Cores
+Results are 268435456 bytes each, thus performing 81 iterations
+Freed memory for dev 0
+Uninitted cublas
+Using compare file: compare.ptx
+Burning for 300 seconds.
+Initialized device 3 with 24081 MB of memory (23663 MB available, using 21296 MB of it), using FLOATS, using Tensor Cores
+Results are 268435456 bytes each, thus performing 81 iterations
+Freed memory for dev 3
+Uninitted cublas
+Using compare file: compare.ptx
+Burning for 300 seconds.
+Initialized device 6 with 24081 MB of memory (23663 MB available, using 21296 MB of it), using FLOATS, using Tensor Cores
+Results are 268435456 bytes each, thus performing 81 iterations
+Freed memory for dev 6
+Uninitted cublas
+Using compare file: compare.ptx
+Burning for 300 seconds.
+Initialized device 5 with 24081 MB of memory (23663 MB available, using 21296 MB of it), using FLOATS, using Tensor Cores
+Results are 268435456 bytes each, thus performing 81 iterations
+Freed memory for dev 5
+Uninitted cublas
+Using compare file: compare.ptx
+Burning for 300 seconds.
+Initialized device 2 with 24081 MB of memory (23663 MB available, using 21296 MB of it), using FLOATS, using Tensor Cores
+Results are 268435456 bytes each, thus performing 81 iterations
+Freed memory for dev 2
+Uninitted cublas
+Using compare file: compare.ptx
+Burning for 300 seconds.
+Initialized device 1 with 24081 MB of memory (23663 MB available, using 21296 MB of it), using FLOATS, using Tensor Cores
+Results are 268435456 bytes each, thus performing 81 iterations
+Freed memory for dev 1
+Uninitted cublas
+Using compare file: compare.ptx
+Burning for 300 seconds.
+Initialized device 7 with 24081 MB of memory (23663 MB available, using 21296 MB of it), using FLOATS, using Tensor Cores
+Results are 268435456 bytes each, thus performing 81 iterations
+Freed memory for dev 7
+Uninitted cublas
+Tiempo transcurrido: 00:04:51 | Tiempo restante: 00:00:09 
+Tiempo transcurrido: 00:04:53 | Tiempo restante: 00:00:07 
+Tiempo transcurrido: 00:04:55 | Tiempo restante: 00:00:05 
+Tiempo transcurrido: 00:04:58 | Tiempo restante: 00:00:02 
+Deteniendo el proceso de GPU-BURN...
+Proceso de GPU-BURN detenido.
+Calculando promedios de resultados...
+ 
+GPU - 0: Suma total de MHz: 284460 MHz
+GPU - 0: Líneas extraídas: 128
+GPU - 0: Promedio de MHz (100 %): 2222.3437 MHz
+GPU - 0: Funciona por debajo de la base por: 1.00 %
+GPU - 0: Líneas que no cumplen con el criterio: 3
+ 
+ 
+GPU - 1: Suma total de MHz: 291120 MHz
+GPU - 1: Líneas extraídas: 127
+GPU - 1: Promedio de MHz (100 %): 2292.2834 MHz
+GPU - 1: Funciona por encima de la base por: 2.00 %
+GPU - 1: Líneas que no cumplen con el criterio: 4
+ 
+ 
+GPU - 2: Suma total de MHz: 294120 MHz
+GPU - 2: Líneas extraídas: 128
+GPU - 2: Promedio de MHz (100 %): 2297.8125 MHz
+GPU - 2: Funciona por encima de la base por: 2.00 %
+GPU - 2: Líneas que no cumplen con el criterio: 3
+ 
+ 
+GPU - 3: Suma total de MHz: 287464 MHz
+GPU - 3: Líneas extraídas: 127
+GPU - 3: Promedio de MHz (100 %): 2263.4960 MHz
+GPU - 3: Funciona por encima de la base por: 1.00 %
+GPU - 3: Líneas que no cumplen con el criterio: 4
+ 
+ 
+GPU - 4: Suma total de MHz: 290655 MHz
+GPU - 4: Líneas extraídas: 128
+GPU - 4: Promedio de MHz (100 %): 2270.7421 MHz
+GPU - 4: Funciona por encima de la base por: 1.00 %
+GPU - 4: Líneas que no cumplen con el criterio: 3
+ 
+ 
+GPU - 5: Suma total de MHz: 291465 MHz
+GPU - 5: Líneas extraídas: 128
+GPU - 5: Promedio de MHz (100 %): 2277.0703 MHz
+GPU - 5: Funciona por encima de la base por: 1.00 %
+GPU - 5: Líneas que no cumplen con el criterio: 3
+ 
+ 
+GPU - 6: Suma total de MHz: 295350 MHz
+GPU - 6: Líneas extraídas: 128
+GPU - 6: Promedio de MHz (100 %): 2307.4218 MHz
+GPU - 6: Funciona por encima de la base por: 3.00 %
+GPU - 6: Líneas que no cumplen con el criterio: 3
+ 
+ 
+GPU - 7: Suma total de MHz: 294300 MHz
+GPU - 7: Líneas extraídas: 128
+GPU - 7: Promedio de MHz (100 %): 2299.2187 MHz
+GPU - 7: Funciona por encima de la base por: 2.00 %
+GPU - 7: Líneas que no cumplen con el criterio: 3
+ 
+ 
+Ejecutando FIO...
+Ejecutando prueba en /dev/nvme0n1 usando archivo temporal /dev/nvme0n1testfile...
+Velocidad de escritura en /dev/nvme0n1: bw=3427MiB/s
+Velocidad de lectura en /dev/nvme0n1: bw=4096MiB/s
+Ejecutando prueba en /dev/sda usando archivo temporal /dev/sdatestfile...
+Velocidad de escritura en /dev/sda: bw=3382MiB/s
+Velocidad de lectura en /dev/sda: bw=4131MiB/s
+Ejecutando Sectores...
+========================================
+Disco: /dev/nvme0n1
+Estado: [32mPASSED[0m
+Horas encendido: 7,199
+========================================
+
+========================================
+Disco: /dev/sda
+Estado: [31mERROR: [0m
+Horas encendido: No disponible
+========================================
+
+Ejecutando Resultado...
+El archivo HTML ha sido generado como resultado.html
+Ejecutando Comprobaciones con el dispositivo PCI: Intel
+Creando carpeta de reportes...
+Información de tarjetas gráficas guardada en /root/AutomatizadoV17/reports/system_info.txt.
+Journal del sistema guardado en /root/AutomatizadoV17/reports/journalctl.txt.
+mv: '/root/AutomatizadoV17/reports/system_info.txt' and '/root/AutomatizadoV17/reports/system_info.txt' are the same file
+Copiando archivos results_*.txt a la carpeta de reportes...
+Copiando ./tests/prime/cpu_clocks.txt a la carpeta de reportes...
+Copiando ./tests/scripts/resultado.html a la carpeta de reportes...
+Generando informe HTML...
+Informe HTML guardado en /root/AutomatizadoV17/reports/informe.html.
+Información del sistema guardada en /root/AutomatizadoV17/reports/system_info.txt.
+Informe HTML guardado en /root/AutomatizadoV17/reports/informe.html.
+Journal del sistema guardado en /root/AutomatizadoV17/reports/journalctl.txt.
+Información del BIOS guardada en /root/AutomatizadoV17/reports/bios.txt.
+Archivos results_* y cpu_clocks.txt copiados a /root/AutomatizadoV17/reports/
+Archivo resultado.html copiado a /root/AutomatizadoV17/reports/
+Todos los scripts han terminado de ejecutarse.

@@ -1,0 +1,489 @@
+Se van a ejecutar los siguientes scripts en secuencia con los siguientes parámetros:
+1. Gobernador
+2. Octane
+3. Geekbench GPU
+4. AnchoBanda
+5. MprimeDesktop -> num_cpus: 1, mem_reservada_gb: 6, frecuencia_base_mhz: 3600, duración: 5 minutos
+6. Geekbench
+7. GPU-BURN -> clock base: 1395 MHz, duración: 5 minutos
+8. FIO
+9. Sectores
+10. Resultado
+11. Comprobaciones -> Dispositivo PCI: Intel
+¿Desea continuar con la ejecución? (s/n): Ejecutando Valores...
+Could not open device at /dev/ipmi0 or /dev/ipmi/0 or /dev/ipmidev/0: No such file or directory
+Could not open device at /dev/ipmi0 or /dev/ipmi/0 or /dev/ipmidev/0: No such file or directory
+[0;36mAzken Muga 🚀✨[0m
+
+[0;32mSistema optimizado para pruebas de benchmarks.[0m
+
+Estadísticas del sistema:
+  - GPUs NVIDIA CUDA: 1 (NVIDIA GeForce RTX 3090,)
+  - CPUs disponibles: 8
+  - Modelo de CPU: Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz
+BIOS Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz To Be Filled By O.E.M. CPU @ 4.5GHz
+  - Frecuencia actual de CPU: 2501.81 MHz
+  - Frecuencia base (mínima): 800
+  - Frecuencia boost (máxima): MHz 4.90 GHz
+  - Núcleos físicos: 8
+  - Hilos por núcleo: 1
+  - Caché L1d: 256 KiB
+  - Caché L1i: 256 KiB
+  - Caché L2: 2 MiB
+  - Caché L3: 12 MiB
+  - Memoria RAM total: 16G
+
+Información del BMC:
+  - IP del BMC: [0;31mNo disponible[0m
+  - MAC del BMC: [0;31mNo disponible[0m
+  - Placa base: 	Z390 UD
+
+[0;36m🔧 Azken Muga LABS [0m
+Ejecutando Gobernador...
+Cambiando el gobernador de la CPU a 'performance' para todas las 8 CPUs.
+Todas las CPUs han sido configuradas en el modo 'performance'.
+Ejecutando Octane...
+Resultados guardados en result.csv
+La puntuación de las tarjetas gráfica es: 659.59
+La media por tarjeta gráfica es: 659.59000000000000000000
+Puedes buscar los resultados de tu tarjeta grafica aqui y compararlo: https://render.otoy.com/octanebench/results.php?v=&sort_by=&scale_by=&filter=&singleGPU=1&showRTXOff=0
+Ejecutando Geekbench GPU...
+Se han detectado 1 GPUs en el sistema.
+Ejecutando Geekbench en la GPU 0 (NVIDIA GeForce RTX 3090)...
+[0721/224846:FATAL:nvml_library.cpp(153)] Failed to load nvmlInit_v2: ./tests/geekbench/geekbench_x86_64: undefined symbol: nvmlInit_v2
+6 warnings generated.
+Prueba en la GPU 0 (NVIDIA GeForce RTX 3090) completada. Resultado: https://www.geekbench.com/
+https://store.primatelabs.com/v6
+https://browser.geekbench.com/v6/compute/4493531
+https://browser.geekbench.com/v6/compute/4493531/claim?key=810148
+-----------------------------------
+Todas las pruebas en las GPUs han sido completadas.
+Ejecutando AnchoBanda...
+Detectando CPUs disponibles...
+Total de CPUs: 8
+Ejecutando STREAM Benchmark en la CPU 0...
+Pruebas completadas en la CPU 0. Salida guardada en stream_output_CPU0.txt.
+Ejecutando STREAM Benchmark en la CPU 1...
+Pruebas completadas en la CPU 1. Salida guardada en stream_output_CPU1.txt.
+Ejecutando STREAM Benchmark en la CPU 2...
+Pruebas completadas en la CPU 2. Salida guardada en stream_output_CPU2.txt.
+Ejecutando STREAM Benchmark en la CPU 3...
+Pruebas completadas en la CPU 3. Salida guardada en stream_output_CPU3.txt.
+Ejecutando STREAM Benchmark en la CPU 4...
+Pruebas completadas en la CPU 4. Salida guardada en stream_output_CPU4.txt.
+Ejecutando STREAM Benchmark en la CPU 5...
+Pruebas completadas en la CPU 5. Salida guardada en stream_output_CPU5.txt.
+Ejecutando STREAM Benchmark en la CPU 6...
+Pruebas completadas en la CPU 6. Salida guardada en stream_output_CPU6.txt.
+Ejecutando STREAM Benchmark en la CPU 7...
+Pruebas completadas en la CPU 7. Salida guardada en stream_output_CPU7.txt.
+Analizando los resultados del STREAM Benchmark...
+--------------------------------------------
+Resultados para stream_output_CPU0.txt
+--------------------------------------------
+Copy: 27757.9 MB/s
+Scale: 17624.7 MB/s
+Add: 19874.1 MB/s
+Triad: 19798.9 MB/s
+
+Resultados para stream_output_CPU1.txt
+--------------------------------------------
+Copy: 27893.3 MB/s
+Scale: 17631.6 MB/s
+Add: 19844.2 MB/s
+Triad: 19787.1 MB/s
+
+Resultados para stream_output_CPU2.txt
+--------------------------------------------
+Copy: 28188.3 MB/s
+Scale: 17487.5 MB/s
+Add: 19860.6 MB/s
+Triad: 19787.9 MB/s
+
+Resultados para stream_output_CPU3.txt
+--------------------------------------------
+Copy: 27837.0 MB/s
+Scale: 17660.1 MB/s
+Add: 19913.9 MB/s
+Triad: 19866.9 MB/s
+
+Resultados para stream_output_CPU4.txt
+--------------------------------------------
+Copy: 27840.7 MB/s
+Scale: 17627.2 MB/s
+Add: 19904.0 MB/s
+Triad: 19845.8 MB/s
+
+Resultados para stream_output_CPU5.txt
+--------------------------------------------
+Copy: 27756.2 MB/s
+Scale: 17599.3 MB/s
+Add: 19908.3 MB/s
+Triad: 19839.0 MB/s
+
+Resultados para stream_output_CPU6.txt
+--------------------------------------------
+Copy: 27880.7 MB/s
+Scale: 17435.6 MB/s
+Add: 19802.4 MB/s
+Triad: 19711.5 MB/s
+
+Resultados para stream_output_CPU7.txt
+--------------------------------------------
+Copy: 27740.0 MB/s
+Scale: 17575.6 MB/s
+Add: 19793.2 MB/s
+Triad: 19729.3 MB/s
+
+--------------------------------------------
+Promedios: Copy=27861.76 MB/s, Scale=17580.20 MB/s, Add=19862.58 MB/s, Triad=19795.80 MB/s
+--------------------------------------------
+Detectando CPUs con rendimiento bajo...
+[32mCPU 7 está funcionando correctamente.[0m
+[32mCPU 6 está funcionando correctamente.[0m
+[32mCPU 5 está funcionando correctamente.[0m
+[32mCPU 4 está funcionando correctamente.[0m
+[32mCPU 3 está funcionando correctamente.[0m
+[32mCPU 2 está funcionando correctamente.[0m
+[32mCPU 1 está funcionando correctamente.[0m
+[32mCPU 0 está funcionando correctamente.[0m
+--------------------------------------------
+Comparativa final de mejores resultados:
+--------------------------------------------
+[1mMejor resultado Copy:[0m 28188.3 MB/s (CPU 2)
+[1mMejor resultado Scale:[0m 17660.1 MB/s (CPU 3)
+[1mMejor resultado Add:[0m 19913.9 MB/s (CPU 3)
+[1mMejor resultado Triad:[0m 19866.9 MB/s (CPU 3)
+--------------------------------------------
+Comparativa de rendimiento completada.
+Ejecutando MprimeDesktop...
+La memoria total del sistema es: 15 GB
+Capturando frecuencias de CPU en cpu_clocks.txt...
+Detener después de 300 segundos.
+=====================================
+Progreso: 0% 
+Promedio de frecuencias capturadas: 4600.16 MHz
+Temperatura CPU1: +54.0°C ºC
+Progreso: 1% 
+Promedio de frecuencias capturadas: 4600.08 MHz
+Temperatura CPU1: +63.0°C ºC
+Progreso: 2% 
+Promedio de frecuencias capturadas: 4600.05 MHz
+Temperatura CPU1: +64.0°C ºC
+Progreso: 3% 
+Promedio de frecuencias capturadas: 4600.04 MHz
+Temperatura CPU1: +65.0°C ºC
+Progreso: 4% 
+Promedio de frecuencias capturadas: 4600.03 MHz
+Temperatura CPU1: +66.0°C ºC
+Progreso: 5% 
+Promedio de frecuencias capturadas: 4600.02 MHz
+Temperatura CPU1: +67.0°C ºC
+Progreso: 7% 
+Promedio de frecuencias capturadas: 4600.02 MHz
+Temperatura CPU1: +66.0°C ºC
+Progreso: 8% 
+Promedio de frecuencias capturadas: 4600.01 MHz
+Temperatura CPU1: +68.0°C ºC
+Progreso: 9% 
+Promedio de frecuencias capturadas: 4600.01 MHz
+Temperatura CPU1: +68.0°C ºC
+Progreso: 11% 
+Promedio de frecuencias capturadas: 4600.01 MHz
+Temperatura CPU1: +69.0°C ºC
+Progreso: 12% 
+Promedio de frecuencias capturadas: 4600.01 MHz
+Temperatura CPU1: +70.0°C ºC
+Progreso: 14% 
+Promedio de frecuencias capturadas: 4600.01 MHz
+Temperatura CPU1: +70.0°C ºC
+Progreso: 15% 
+Promedio de frecuencias capturadas: 4600.01 MHz
+Temperatura CPU1: +70.0°C ºC
+Progreso: 17% 
+Promedio de frecuencias capturadas: 4600.01 MHz
+Temperatura CPU1: +71.0°C ºC
+Progreso: 18% 
+Promedio de frecuencias capturadas: 4600.01 MHz
+Temperatura CPU1: +70.0°C ºC
+Progreso: 20% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +71.0°C ºC
+Progreso: 22% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +72.0°C ºC
+Progreso: 23% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +71.0°C ºC
+Progreso: 25% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +71.0°C ºC
+Progreso: 27% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +71.0°C ºC
+Progreso: 29% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +72.0°C ºC
+Progreso: 31% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +72.0°C ºC
+Progreso: 33% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +72.0°C ºC
+Progreso: 35% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +72.0°C ºC
+Progreso: 37% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +72.0°C ºC
+Progreso: 39% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +73.0°C ºC
+Progreso: 41% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +71.0°C ºC
+Progreso: 43% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +72.0°C ºC
+Progreso: 46% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +72.0°C ºC
+Progreso: 48% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +73.0°C ºC
+Progreso: 50% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +72.0°C ºC
+Progreso: 53% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +73.0°C ºC
+Progreso: 55% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +72.0°C ºC
+Progreso: 57% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +72.0°C ºC
+Progreso: 60% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +73.0°C ºC
+Progreso: 62% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +72.0°C ºC
+Progreso: 65% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +73.0°C ºC
+Progreso: 68% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +78.0°C ºC
+Progreso: 70% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +77.0°C ºC
+Progreso: 73% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +77.0°C ºC
+Progreso: 76% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +79.0°C ºC
+Progreso: 79% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +79.0°C ºC
+Progreso: 82% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +80.0°C ºC
+Progreso: 85% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +77.0°C ºC
+Progreso: 88% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +80.0°C ºC
+Progreso: 91% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +79.0°C ºC
+Progreso: 94% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +80.0°C ºC
+Progreso: 98% 
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +79.0°C ºC
+
+Tiempo de captura completo. Calculando promedio final...
+Promedio de frecuencias capturadas: 4600.00 MHz
+Temperatura CPU1: +80.0°C ºC
+La CPU tiene un resultado OK.
+¡Proceso completado!
+Finalizando Prime95 de forma segura...
+Proceso Prime95 (9367) finalizado correctamente.
+Ejecutando Geekbench...
+Geekbench 6.2.2 : https://www.geekbench.com/
+
+Geekbench 6 requires an active internet connection and automatically uploads 
+benchmark results to the Geekbench Browser.
+
+Upgrade to Geekbench 6 Pro to enable offline use and unlock other features:
+
+  https://store.primatelabs.com/v6
+
+Enter your Geekbench 6 Pro license using the following command line:
+
+  ./tests/geekbench/geekbench_x86_64 --unlock <email> <key>
+
+System Information
+  Operating System              Azken (Cubic 2025-07-16 15:41)
+  Kernel                        Linux 6.11.0-17-generic x86_64
+  Model                         Gigabyte Technology Co., Ltd. Z390 UD
+  Motherboard                   Gigabyte Technology Co., Ltd. Z390 UD
+  BIOS                          American Megatrends Inc. F6
+
+CPU Information
+  Name                          Intel Core i7-9700K
+  Topology                      1 Processor, 8 Cores
+  Identifier                    GenuineIntel Family 6 Model 158 Stepping 12
+  Base Frequency                4.90 GHz
+  L1 Instruction Cache          32.0 KB x 4
+  L1 Data Cache                 32.0 KB x 4
+  L2 Cache                      256 KB x 4
+  L3 Cache                      12.0 MB
+
+Memory Information
+  Size                          15.5 GB
+
+
+Single-Core
+  Running File Compression
+  Running Navigation
+  Running HTML5 Browser
+  Running PDF Renderer
+  Running Photo Library
+  Running Clang
+  Running Text Processing
+  Running Asset Compression
+  Running Object Detection
+  Running Background Blur
+  Running Horizon Detection
+  Running Object Remover
+  Running HDR
+  Running Photo Filter
+  Running Ray Tracer
+  Running Structure from Motion
+
+Multi-Core
+  Running File Compression
+  Running Navigation
+  Running HTML5 Browser
+  Running PDF Renderer
+  Running Photo Library
+  Running Clang
+  Running Text Processing
+  Running Asset Compression
+  Running Object Detection
+  Running Background Blur
+  Running Horizon Detection
+  Running Object Remover
+  Running HDR
+  Running Photo Filter
+  Running Ray Tracer
+  Running Structure from Motion
+
+
+Uploading results to the Geekbench Browser. This could take a minute or two 
+depending on the speed of your internet connection.
+
+Upload succeeded. Visit the following link and view your results online:
+
+  https://browser.geekbench.com/v6/cpu/12962837
+
+Visit the following link and add this result to your profile:
+
+  https://browser.geekbench.com/v6/cpu/12962837/claim?key=817680
+
+Ejecutando GPU-BURN...
+GPU 0: NVIDIA GeForce RTX 3090 (UUID: GPU-222d791d-cff0-9408-d395-affd2b50d977)
+Using compare file: compare.ptx
+Burning for 300 seconds.
+	Summary at:   Mon Jul 21 23:01:22 CEST 2025
+Tiempo transcurrido: 00:00:23 | Tiempo restante: 00:04:37 
+	Summary at:   Mon Jul 21 23:01:53 CEST 2025
+Tiempo transcurrido: 00:00:53 | Tiempo restante: 00:04:07 
+	Summary at:   Mon Jul 21 23:02:24 CEST 2025
+Tiempo transcurrido: 00:02:28 | Tiempo restante: 00:02:32 
+	Summary at:   Mon Jul 21 23:03:57 CEST 2025
+Tiempo transcurrido: 00:02:58 | Tiempo restante: 00:02:02 
+	Summary at:   Mon Jul 21 23:04:27 CEST 2025
+Tiempo transcurrido: 00:03:29 | Tiempo restante: 00:01:31 
+	Summary at:   Mon Jul 21 23:04:59 CEST 2025
+Tiempo transcurrido: 00:03:59 | Tiempo restante: 00:01:01 
+	Summary at:   Mon Jul 21 23:05:30 CEST 2025
+Killing processes with SIGTERM (soft kill)
+Tiempo transcurrido: 00:04:52 | Tiempo restante: 00:00:08 
+Tiempo transcurrido: 00:04:54 | Tiempo restante: 00:00:06 
+Using compare file: compare.ptx
+Burning for 300 seconds.
+Initialized device 0 with 24123 MB of memory (23750 MB available, using 21375 MB of it), using FLOATS, using Tensor Cores
+Results are 268435456 bytes each, thus performing 81 iterations
+Freed memory for dev 0
+Uninitted cublas
+Tiempo transcurrido: 00:04:56 | Tiempo restante: 00:00:04 
+Tiempo transcurrido: 00:04:58 | Tiempo restante: 00:00:02 
+Deteniendo el proceso de GPU-BURN...
+Proceso de GPU-BURN detenido.
+Calculando promedios de resultados...
+ 
+GPU - 0: Suma total de MHz: 184125 MHz
+GPU - 0: Líneas extraídas: 147
+GPU - 0: Promedio de MHz (100 %): 1252.5510 MHz
+GPU - 0: Funciona por debajo de la base por: 11.00 %
+GPU - 0: Líneas que no cumplen con el criterio: 1
+ 
+ 
+Ejecutando FIO...
+Partition 1 does not start on physical sector boundary.
+Ejecutando prueba en /dev/sda usando archivo temporal /dev/sdatestfile...
+Velocidad de escritura en /dev/sda: bw=5031MiB/s
+Velocidad de lectura en /dev/sda: bw=4959MiB/s
+Ejecutando prueba en /dev/sdb usando archivo temporal /dev/sdbtestfile...
+Velocidad de escritura en /dev/sdb: bw=5107MiB/s
+Velocidad de lectura en /dev/sdb: bw=4978MiB/s
+Ejecutando prueba en /dev/sdc usando archivo temporal /dev/sdctestfile...
+Velocidad de escritura en /dev/sdc: bw=5077MiB/s
+Velocidad de lectura en /dev/sdc: bw=4949MiB/s
+Ejecutando Sectores...
+Partition 1 does not start on physical sector boundary.
+========================================
+Disco: /dev/sda
+Estado: [31mERROR: [0m
+Horas encendido: No disponible
+========================================
+
+========================================
+Disco: /dev/sdb
+Estado: [32mPASSED[0m
+Horas encendido: 8438h+27m+12.949s
+========================================
+
+========================================
+Disco: /dev/sdc
+Estado: [32mPASSED[0m
+Horas encendido: 8415
+========================================
+
+Ejecutando Resultado...
+El archivo HTML ha sido generado como resultado.html
+Ejecutando Comprobaciones con el dispositivo PCI: Intel
+Creando carpeta de reportes...
+Partition 1 does not start on physical sector boundary.
+Could not open device at /dev/ipmi0 or /dev/ipmi/0 or /dev/ipmidev/0: No such file or directory
+Información de tarjetas gráficas guardada en /root/AutomatizadoV17/reports/system_info.txt.
+Journal del sistema guardado en /root/AutomatizadoV17/reports/journalctl.txt.
+mv: '/root/AutomatizadoV17/reports/system_info.txt' and '/root/AutomatizadoV17/reports/system_info.txt' are the same file
+Copiando archivos results_*.txt a la carpeta de reportes...
+Copiando ./tests/prime/cpu_clocks.txt a la carpeta de reportes...
+Copiando ./tests/scripts/resultado.html a la carpeta de reportes...
+Generando informe HTML...
+Informe HTML guardado en /root/AutomatizadoV17/reports/informe.html.
+Información del sistema guardada en /root/AutomatizadoV17/reports/system_info.txt.
+Informe HTML guardado en /root/AutomatizadoV17/reports/informe.html.
+Journal del sistema guardado en /root/AutomatizadoV17/reports/journalctl.txt.
+Información del BIOS guardada en /root/AutomatizadoV17/reports/bios.txt.
+Archivos results_* y cpu_clocks.txt copiados a /root/AutomatizadoV17/reports/
+Archivo resultado.html copiado a /root/AutomatizadoV17/reports/
+Todos los scripts han terminado de ejecutarse.
