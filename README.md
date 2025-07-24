@@ -2,6 +2,8 @@
 
 Este proyecto proporciona un sistema operativo **Linux Live** con todos los drivers NVIDIA y herramientas preinstaladas para ejecutar automáticamente una batería de **benchmarks avanzados**, monitorear el sistema en tiempo real y analizar los resultados mediante **inteligencia artificial local**.
 
+El sistema operativo tiene un peso total de 30Gb.
+
 ---
 
 ## 🚨 ¿Por qué IA?
