@@ -1,4 +1,6 @@
 # 🧠 Sistema Live de Diagnóstico y Benchmark Automatizado con IA
+[🎥 Ver video en YouTube AzkenOS KeepCoding DEMO ▶](https://youtu.be/k2700OgdUDM)
+
 
 Este proyecto proporciona un sistema operativo **Linux Live** con todos los drivers NVIDIA y herramientas preinstaladas para ejecutar automáticamente una batería de **benchmarks avanzados**, monitorear el sistema en tiempo real y analizar los resultados mediante **inteligencia artificial local**.
 
