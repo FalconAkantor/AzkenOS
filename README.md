@@ -5,6 +5,12 @@ Este proyecto proporciona un sistema operativo **Linux Live** con todos los driv
 El sistema operativo tiene un peso total de 30Gb.
 
 ---
+## 📖 Documentación Adicional
+
+Para más detalles sobre la instalación, configuración y uso, consulta el archivo  
+[README_AGENT.md](README_AGENT.md)  
+en la raíz de este repositorio. Allí encontrarás instrucciones paso a paso, ejemplos de configuración y referencias completas.  
+---
 
 ## 🚨 ¿Por qué IA?
 
